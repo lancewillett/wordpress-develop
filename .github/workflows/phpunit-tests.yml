@@ -33,7 +33,7 @@ jobs:
   #
   test-php:
     name: PHP ${{ matrix.php }}
-    uses: WordPress/wordpress-develop/.github/workflows/reusable-phpunit-tests-v1.yml@trunk
+    uses: lancewillett/wordpress-develop/.github/workflows/reusable-phpunit-tests-v1.yml@fix/runner-variable-v1-v2
     permissions:
       contents: read
     secrets: inherit
